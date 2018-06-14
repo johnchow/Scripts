@@ -9,10 +9,10 @@ open-vm-tools net-tools unzip wget chrony telnet iostat nethogs
 
 yum install nginx -y 
 
-yum install libxml2 libxml2-devel openssl openssl-devel bzip2 bzip2-devel \
-libcurl libcurl-devel libjpeg libjpeg-devel libpng libpng-devel \
-freetype freetype-devel gmp gmp-devel libmcrypt libmcrypt-devel \
-readline readline-devel libxslt libxslt-devel pcre pcre-devel
+#yum install libxml2 libxml2-devel openssl openssl-devel bzip2 bzip2-devel \
+#libcurl libcurl-devel libjpeg libjpeg-devel libpng libpng-devel \
+#freetype freetype-devel gmp gmp-devel libmcrypt libmcrypt-devel \
+#readline readline-devel libxslt libxslt-devel pcre pcre-devel
 
 rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm  
 rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm  
